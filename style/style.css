@@ -1,0 +1,126 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Poppins:wght@400;500;600;800&display=swap");
+
+/* variable */
+:root {
+  --biru: #1b3358;
+  --biru-tua: #06142e;
+  --unggu: #a73e66;
+  --orange: #f1916d;
+  --cream: #f5d7db;
+  --pink: #db83b8;
+  --h1-font-size: 40px;
+  --h2-font-size: 32px;
+  --smals-font-size: 14px;
+}
+/* reset css */
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+i {
+  text-decoration: none;
+}
+nav {
+  background-color: var(--biru);
+}
+/* global css */
+section {
+  padding: 70px 0;
+}
+
+section .section-title {
+  font-size: var(--h2-font-size);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.btn-orange {
+  background-color: var(--biru-tua);
+  color: white;
+}
+
+.btn-orange:hover {
+  background-color: var(--orange);
+  color: white;
+}
+
+.text-orange {
+  color: var(--biru);
+}
+.text-dark {
+  color: var(--orange);
+}
+
+.fs-7 {
+  font-size: var(--smals-font-size);
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: var(--biru-tua);
+}
+/* css per section */
+
+/* navbar */
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link:active {
+  color: var(--orange);
+}
+/* section */
+.header-section .header-title {
+  font-size: var(--h1-font-size);
+}
+.header-section .header-skill {
+  color: var(--biru);
+}
+.header-section .header-skill:hover {
+  color: var(--orange);
+}
+.header-section .header-skill i {
+  transition: 0.3s;
+}
+.header-section .header-skill:hover i {
+  transform: rotate(-90deg);
+}
+.header-section .header-img {
+  width: 90%;
+}
+/* portofolio*/
+
+.skills-section {
+  background-color: #030304;
+}
+
+.skills-section .progress-bar {
+  width: 100%;
+  background-color: var(--orange);
+  height: 10px;
+  border-radius: 10px;
+}
+
+.skills-section .progress-bar .progress {
+  background-color: var(--biru);
+}
+.skills-section .skills-img {
+  width: 75%;
+  margin-left: 70px;
+  padding-bottom: 100px;
+}
+
+.about-section .about-img {
+  width: 55%;
+  margin-left: 40px;
+  padding-bottom: 50px;
+}
+footer {
+  background-color: var(--biru);
+}
